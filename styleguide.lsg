@@ -1,0 +1,24 @@
+source: 'main.scss'
+javascript-before:
+  - "http://code.jquery.com/jquery-1.11.1.min.js"
+title: 'SassConf14 Living Style Guide'
+style:
+  color: '$yellow'
+  background-color: 'scale-color($blue-3, $lightness: -70%)'
+  base-font: 'Helvetica Neue'
+  code-color: '$blue-4'
+  code-background-color: '$blue-1'
+  color-swatch-border-radius: '10px'
+  color-swatch-border-width: '0'
+
+header: |
+  <div class="my-header">
+    <img src="http://sass-lang.com/assets/img/logos/logo-235e394c.png">
+  </div>
+
+styleguide-scss: |
+  .my-header {
+    background: $blue-5;
+    text-align: center;
+    padding: 30px;
+  }

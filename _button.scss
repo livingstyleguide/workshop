@@ -1,0 +1,10 @@
+// _button.scss
+.button {
+  background: $pink;
+  border: none;
+  color: white;
+
+  &.secondary {
+    background: gray;
+  }
+}
